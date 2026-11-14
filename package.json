@@ -1,0 +1,16 @@
+{
+  "name": "personal-portfolio-contact-form",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio frontend and contact form backend",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "resend": "^4.0.0"
+  }
+}
