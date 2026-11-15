@@ -11,7 +11,7 @@ dotenv.config({ path: path.resolve(backendRoot, '../.env') });
 
 const app = express();
 const port = Number(process.env.PORT || 3000);
-const frontendOrigin = (process.env.FRONTEND_URL || 'https://techiemengo.netlify.app').replace(/\/+$/, '');
+const frontendOrigin = (process.env.FRONTEND_URL || 'https://techiemen.netlify.app').replace(/\/+$/, '');
 
 app.use((req, res, next) => {
     res.vary('Origin');
